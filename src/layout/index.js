@@ -43,6 +43,12 @@ function LayoutView() {
                 <span style={ {fontSize: '18px'} }>setState测试</span>
               </Link>
             </Menu.Item>
+            <Menu.Item key="4">
+              <Link to='/hooks-test'>
+                <RocketFilled style={ {fontSize: '18px'} }/>
+                <span style={ {fontSize: '18px'} }>Hooks测试</span>
+              </Link>
+            </Menu.Item>
           </Menu>
         </Layout.Sider>
 

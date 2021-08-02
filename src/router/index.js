@@ -15,6 +15,11 @@ const routes = [
     path: '/set-state-test',
     exact: true,
     component: React.lazy(() => import('../views/SetStateTest'))
+  },
+  {
+    path: '/hooks-test',
+    exact: true,
+    component: React.lazy(() => import('../views/HOOKSTest'))
   }
 ];
 
