@@ -1,8 +1,15 @@
 import React from 'react';
 
+import './home.css';
+
 function Home() {
   return (
-    <div>This is Home page for React Test!!!</div>
+    <div>
+      <div>This is Home page for React Test!!!</div>
+      <hr />
+      <div className="bg-test"></div>
+    </div>
+    
   )
 }
 

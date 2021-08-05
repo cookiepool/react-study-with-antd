@@ -12,7 +12,7 @@ import { RocketFilled } from '@ant-design/icons';
 import './layout.css';
 import logo from './image/logo192.png';
 
-function LayoutView() {
+function LayoutView(props) {
   return (
     <Router>
       <Layout>

@@ -1,0 +1,8 @@
+.bg-test {
+  width: 344px;
+  height: 464px;
+  background-image: url('./images/login-box-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
